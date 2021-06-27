@@ -31,4 +31,7 @@ echo "Finished Installing AUR Packages"
 
 sudo pacman -Rns i3 --noconfirm
 
+sudo chmod +x .config/polybar/player.sh
+sudo chmod +x .config/i3lock/lockscreen
+
 echo "Finished Setup"
