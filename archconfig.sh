@@ -33,5 +33,8 @@ sudo pacman -Rns i3 --noconfirm
 
 sudo chmod +x .config/polybar/player.sh
 sudo chmod +x .config/i3lock/lockscreen
+sudo chmod +x .config/bspwm/bspwmrc
+
+sudo systemctl enable sddm
 
 echo "Finished Setup"
