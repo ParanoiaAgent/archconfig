@@ -30,3 +30,5 @@ yay -S picom-jonaburg-git polybar zscroll-git rofi-dmenu networkmanager-dmenu-gi
 echo "Finished Installing AUR Packages"
 
 sudo pacman -Rns i3 --noconfirm
+
+echo "Finished Setup"
