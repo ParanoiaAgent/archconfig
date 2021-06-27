@@ -9,10 +9,10 @@ echo "Finished System Update"
 sudo pacman -S git --noconfirm
 
 cd
-sudo mkdir -p Downloads/Git
+mkdir -p Downloads/Git
 cd Downloads/Git
 
-sudo git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay.git
 sudo chown -R paranoia-agent:users ./yay
 cd yay
 makepkg -si --noconfirm
