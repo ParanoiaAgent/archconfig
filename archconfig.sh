@@ -6,8 +6,6 @@ sudo pacman -Syu --noconfirm
 echo "Finished System Update"
 
 ### YAY Install
-sudo pacman -S git --noconfirm
-
 cd
 mkdir -p Downloads/Git
 cd Downloads/Git
